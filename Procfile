@@ -1,1 +1,1 @@
-web: uvicorn app:app --port 500
+web: uvicorn app:app --port 5000 --host 0.0.0.0
