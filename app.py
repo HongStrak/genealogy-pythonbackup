@@ -10,7 +10,7 @@ def hello():
 
 
 if __name__ == '__main__':
-    uvicorn.run(app, port=80)
+    uvicorn.run(app)
 
 # from flask import Flask
 
