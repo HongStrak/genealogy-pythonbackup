@@ -1,4 +1,3 @@
-from pkgutil import get_data
 from fastapi import FastAPI, WebSocket, Request, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
